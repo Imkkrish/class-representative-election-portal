@@ -34,3 +34,21 @@ To initialize the database, simply run the `database.py` script:
 
 ```bash
 python database.py
+```
+```bash
+git clone https://github.com/Imkkrish/class-representative-election-portal.git
+```
+```bash
+cd class-representative-election-portal
+```
+```bash
+pip install -r requirements.txt
+```
+```bash
+python database.py
+```
+```bash
+python app.py
+```
+
+
