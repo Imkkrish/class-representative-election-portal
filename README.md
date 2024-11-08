@@ -26,6 +26,16 @@ This is a web application built using Flask and HTML/CSS for managing and conduc
 - **Database**: SQLite (or any other preferred database for storing user, candidate, and voting data)
 - **Styling**: Custom CSS with glassmorphism design elements.
 
+## `database.py` File
+
+The `database.py` file is used to set up and manage the database required for the application. It automatically creates the necessary tables based on the needs of the Flask application. This includes tables for users, candidates, votes, and election-related data. You can modify this file to add or alter tables as needed.
+
+To initialize the database, simply run the `database.py` script:
+
+```bash
+python database.py
+
+
 ## Installation
 
 To run the project locally:
