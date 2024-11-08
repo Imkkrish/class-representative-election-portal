@@ -43,7 +43,7 @@ To run the project locally:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/class-representative-election-portal.git
+    git clone https://github.com/Imkkrish/class-representative-election-portal.git
     ```
 
 2. Navigate to the project directory:
