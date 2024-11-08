@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Class Representative Election</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='loginstyle.css') }}">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Navigation Bar -->
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('register_candidate') }}">Register as Candidate</a></li>
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header -->
+        <header class="header-container">
+            <h1>Login</h1>
+            <p>Please choose your login type:</p>
+        </header>
+
+        <!-- User Login Section -->
+        <section id="user-login" class="glass-container login-section">
+            <h2>User Login</h2>
+            <p>Login here to vote</p>
+            <form method="POST" action="{{ url_for('login_user') }}">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="registration_number">Registration Number:</label>
+                    <input type="text" name="registration_number" required>
+                </div>
+                <button type="submit" class="btn">Login as User</button>
+            </form>
+        </section>
+
+        <!-- Candidate Login Section -->
+        <section id="candidate-login" class="glass-container login-section">
+            <h2>Candidate Login</h2>
+            <form method="POST" action="{{ url_for('login_candidate') }}">
+                <div class="input-group">
+                    <label for="candidate_username">Registration No:</label>
+                    <input type="text" name="candidate_username" required>
+                </div>
+                <div class="input-group">
+                    <label for="candidate_password">Password:</label>
+                    <input type="password" name="candidate_password" required>
+                </div>
+                <button type="submit" class="btn">Login as Candidate</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-container">
+            <p>&copy; 2024 Class Representative Election Portal - Krish</p>
+        </footer>
+    </div>
+</body>
+</html>
