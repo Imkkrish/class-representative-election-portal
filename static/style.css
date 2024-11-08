@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #c3ecff, #d3b4f3);
+    background: linear-gradient(135deg,#eaeaea, #b8ddee, #c497f1);
     color: #333;
 }
 
@@ -54,7 +54,7 @@ body {
     transition: background 0.3s ease;
 }
 .nav-list li a:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(163, 163, 163, 0.597);
 }
 /* Header Section */
 .header-section {
