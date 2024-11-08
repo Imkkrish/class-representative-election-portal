@@ -31,24 +31,40 @@ This is a web application built using Flask and HTML/CSS for managing and conduc
 The `database.py` file is used to set up and manage the database required for the application. It automatically creates the necessary tables based on the needs of the Flask application. This includes tables for users, candidates, votes, and election-related data. You can modify this file to add or alter tables as needed.
 
 To initialize the database, simply run the `database.py` script:
+## Installation
 
-```bash
-python database.py
-```
-```bash
-git clone https://github.com/Imkkrish/class-representative-election-portal.git
-```
-```bash
-cd class-representative-election-portal
-```
-```bash
-pip install -r requirements.txt
-```
-```bash
-python database.py
-```
-```bash
-python app.py
-```
+To run the project locally:
 
+1. Clone the repository:
 
+    ```bash
+    git clone https://github.com/your-username/class-representative-election-portal.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd class-representative-election-portal
+    ```
+
+3. Install the required dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the Flask application:
+
+    ```bash
+    python app.py
+    ```
+
+5. Open a web browser and go to `http://127.0.0.1:5000` to access the application.
+
+## Contributing
+
+Feel free to fork this project, submit issues, or create pull requests. Any contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License.
