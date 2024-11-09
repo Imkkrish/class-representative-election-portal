@@ -53,14 +53,20 @@ To run the project locally:
     ```bash
     pip install -r requirements.txt
     ```
-
-4. Run the Flask application:
+4.Configure your MySQL database connection in `app.py`:
+```bash
+app.config['MYSQL_HOST'] = 'your_mysql_host'
+app.config['MYSQL_USER'] = 'your_mysql_user'
+app.config['MYSQL_PASSWORD'] = 'your_mysql_password'
+app.config['MYSQL_DB'] = 'voting_app'
+```
+5. Run the Flask application:
 
     ```bash
     python app.py
     ```
 
-5. Open a web browser and go to `http://127.0.0.1:5000` to access the application.
+6. Open a web browser and go to `http://127.0.0.1:5000` to access the application.
 
 ## Contributing
 
