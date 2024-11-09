@@ -23,7 +23,7 @@ This is a web application built using Flask and HTML/CSS for managing and conduc
 
 - **Frontend**: HTML, CSS
 - **Backend**: Flask (Python)
-- **Database**: SQLite (or any other preferred database for storing user, candidate, and voting data)
+- **Database**: MySQL (for user, candidate, and voting data)
 - **Styling**: Custom CSS with glassmorphism design elements.
 
 ## `database.py` File
