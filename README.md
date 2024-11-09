@@ -28,7 +28,8 @@ This is a web application built using Flask and HTML/CSS for managing and conduc
 
 ## `database.py` File
 
-The `database.py` file is used to set up and manage the database required for the application. It automatically creates the necessary tables based on the needs of the Flask application. This includes tables for users, candidates, votes, and election-related data. You can modify this file to add or alter tables as needed.
+The `database.py`  file sets up and manages the MySQL database for the application, creating tables for users, candidates, and votes. Modify it as needed to add or alter tables.
+To initialize the database, run the database.py script.
 
 To initialize the database, simply run the `database.py` script:
 ## Installation
